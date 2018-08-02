@@ -14,14 +14,16 @@ Summary: Circular Statistics, from "Topics in circular Statistics" (2001) S. Rao
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-circular-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-circular-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-circular-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-circular-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-circular-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-circular-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-circular-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-circular-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-circular-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-circular-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-circular-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-circular-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-circular/badges/version.svg)](https://anaconda.org/conda-forge/r-circular)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-circular/badges/downloads.svg)](https://anaconda.org/conda-forge/r-circular)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--circular-green.svg)](https://anaconda.org/conda-forge/r-circular) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-circular.svg)](https://anaconda.org/conda-forge/r-circular) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-circular.svg)](https://anaconda.org/conda-forge/r-circular) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-circular.svg)](https://anaconda.org/conda-forge/r-circular) |
 
 Installing r-circular
 =====================
