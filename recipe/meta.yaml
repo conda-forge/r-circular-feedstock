@@ -1,4 +1,4 @@
-{% set version = '0.4-93' %}
+{% set version = "0.4-94" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/circular_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/circular/circular_{{ version }}.tar.gz
-  sha256: 76cee2393757390ad91d3db3e5aeb2c2d34c0a46822b7941498571a473417142
+  sha256: b9ba433ca8bfd76d2a273ffa257a6cc8a0c7a7a5a0dec3fcde2abc634d5b5671
 
 build:
-  merge_build_host: True  # [win]
-  number: 1005
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -48,8 +48,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=circular
   license: GPL-2.0-only
-  summary: Circular Statistics, from "Topics in circular Statistics" (2001) S. Rao Jammalamadaka
-    and A. SenGupta, World Scientific.
+  summary: Circular Statistics, from "Topics in circular Statistics" (2001) S. Rao Jammalamadaka and A. SenGupta, World Scientific.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
