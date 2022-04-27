@@ -1,4 +1,4 @@
-{% set version = "0.4-94.1" %}
+{% set version = "0.4-95" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/circular_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/circular/circular_{{ version }}.tar.gz
-  sha256: 82c653230e186e1e2612fa6181253a6484801119cafc2db957e9fa4f3d730a37
+  sha256: 483d3e31e9c7afe59e6bcb98ad17c4f6333d19b6c70f948b168c9ee16e90bce2
 
 build:
   merge_build_host: true  # [win]
