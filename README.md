@@ -3,6 +3,7 @@ About r-circular-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-circular-feedstock/blob/main/LICENSE.txt)
 
+
 About r-circular
 ----------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=circular
 Package license: GPL-2.0-only
 
 Summary: Circular Statistics, from "Topics in circular Statistics" (2001) S. Rao Jammalamadaka and A. SenGupta, World Scientific.
+
 About r-circular
 ----------------
 
