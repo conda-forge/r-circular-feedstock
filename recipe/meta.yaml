@@ -1,4 +1,4 @@
-{% set version = "0.5-0" %}
+{% set version = "0.5-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/circular_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/circular/circular_{{ version }}.tar.gz
-  sha256: 4bf4da5de29e555d1a7ae7ea64f8a5dda037e5c423f1078944f0bbb6eb9a7b92
+  sha256: fb59fc9119d777fbc77fe054db83abce84c470ac3269c2aa42b5f5df7683f3d9
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
